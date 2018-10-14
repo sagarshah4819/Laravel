@@ -1,20 +1,19 @@
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="author" content="Scotch">
-
-<title>Super Cool Layouts</title>
-
-<!-- load bootstrap from a cdn -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
-
-<div class="navbar">
-    <div class="navbar-inner">
-        <a id="logo" href="/">Single Malt</a>
-        <ul class="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </div>
-</div>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">IS601-Laravel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="/about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
